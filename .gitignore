@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python package/build files
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / Secrets
+.env
+.env.*
+*.key
+
+# Project Data
+# note: Large datasets should not be committed to GitHub
+data/raw/
+data/processed/
+datasets/
+
+# Raw video files
+videos/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Model Weights / Checkpoints
+weights/
+checkpoints/
+models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# YOLO / Training Outputs
+runs/
+outputs/
+results/
+
+# Temporary Files / Logs
+*.log
+*.tmp
+*.temp
+.cache/
